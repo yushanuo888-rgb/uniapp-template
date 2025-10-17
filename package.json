@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cos-wx-sdk-v5": "^1.8.0",
+    "dayjs": "^1.11.18",
+    "lodash": "^4.17.21",
+    "nanoid": "^5.1.6"
+  }
+}
