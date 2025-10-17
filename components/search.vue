@@ -1,5 +1,5 @@
 <template>
-	<view class="search" @click="$tools.toPage('/packages/wechat/search/search', false, 'zoom-fade-out')">
+	<view class="search">
 		<view class="cct">
 			<u-icon name="search" color="#999" size="42rpx"></u-icon>
 			<text>搜索</text>
