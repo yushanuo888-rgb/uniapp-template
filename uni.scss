@@ -12,6 +12,7 @@
  * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
  */
 
+@import '@/uni_modules/uview-ui/theme.scss';
 /* 颜色变量 */
 
 /* 行为相关颜色 */
@@ -41,7 +42,7 @@ $uni-border-color:#c8c7cc;
 /* 文字尺寸 */
 $uni-font-size-sm:12px;
 $uni-font-size-base:14px;
-$uni-font-size-lg:16px;
+$uni-font-size-lg:16;
 
 /* 图片尺寸 */
 $uni-img-size-sm:20px;
@@ -74,3 +75,58 @@ $uni-color-subtitle: #555555; // 二级标题颜色
 $uni-font-size-subtitle:26px;
 $uni-color-paragraph: #3F536E; // 文章段落颜色
 $uni-font-size-paragraph:15px;
+
+/* 主题色 */
+$primary: #08ba06;
+$primary-hover: #079904;
+$default: #505050;
+$white: #ffffff;
+$black: #000000;
+$grey: #999999;
+$grey-hover: #838383;
+$background-grey: #ededed;
+
+
+/* 字体尺寸 */
+$fs-48: 48rpx;
+$fs-46: 46rpx;
+$fs-44: 44rpx;
+$fs-42: 42rpx;
+$fs-40: 40rpx;
+$fs-38: 38rpx;
+$fs-36: 36rpx;
+$fs-34: 34rpx;
+$fs-32: 32rpx;
+$fs-30: 30rpx;
+$fs-28: 28rpx;
+$fs-26: 28rpx;
+$fs-24: 24rpx;
+
+
+/* 混入 */
+// 水平垂直居中
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// 水平贴边
+@mixin flex-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.primary{
+	background-color: $primary;
+}
+.primary-hover{
+	background-color: $primary-hover;
+}
+.grey{
+	background-color: $grey;
+}
+.grey-hover{
+	background-color: $grey-hover;
+}
